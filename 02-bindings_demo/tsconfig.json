@@ -1,0 +1,33 @@
+{
+    "compilerOptions": {
+        "strict": true,
+        "target": "ES2022",
+        "module": "ES2022",
+        "incremental": true,
+        "sourceMap": true,
+        "noUnusedLocals": true,
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "importHelpers": true,
+        "allowSyntheticDefaultImports": true,
+        "forceConsistentCasingInFileNames": true,
+        "declaration": true,
+        "declarationMap": true,
+        "useUnknownInCatchVariables": false,
+        "isolatedModules": true,
+        "noImplicitOverride": false,
+        "preserveConstEnums": true,
+        "outDir": "build",
+        "lib": [
+            "ES2022", 
+            "dom",
+        ],
+        "types": [
+            "@types/emscripten"
+        ],
+        "noImplicitOverride": true,
+        "isolatedModules": false    
+    },
+    "include": ["./main.ts", "./**/*"],
+    "exclude": ["node_modules"]
+}
