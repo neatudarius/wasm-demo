@@ -1,32 +1,47 @@
-# Prerequisites
-*.d
+# Logs
+*.log
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Dependency directories
+node_modules
+node_modules/
 
-# Precompiled Headers
-*.gch
-*.pch
+# Optional npm cache directory
+.npm
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# Optional eslint cache
+.eslintcache
 
-# Fortran module files
-*.mod
-*.smod
+# Auto-run eslint/prettier files
+.tmpeslint
+.tmpprettier
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+# Optional REPL history
+.node_repl_history
 
-# Executables
-*.exe
-*.out
-*.app
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env
+.env.local
+
+# User files
+.user/
+
+# OS X temporary files
+.DS_Store
+
+# Rush temporary files
+
+# Build-generated files
+**/build/
+**/dist/
+
+# VSCode
+.vscode
+
+# third_party
+third_party/emsdk
