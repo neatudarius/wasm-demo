@@ -1,0 +1,15 @@
+{
+  "type": "module",
+  "main": "./main.js",
+  "sideEffects": false,
+  "dependencies": {
+    "@types/emscripten": "1.39.6",
+    "@types/es6-promise": "^3.3.0",
+    "cross-fetch": "^4.0.0",
+    "node-fetch": "^3.3.2",
+    "tslib": "2.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.9.1"
+  }
+}
