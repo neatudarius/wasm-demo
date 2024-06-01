@@ -13,3 +13,6 @@ run_wasm_file_2:
 	node file.js 2-file.txt
 
 .PHONY: clean
+
+clean:
+	rm file.data file.js file.wasm
