@@ -1,7 +1,7 @@
 # Compile all targets.
 build: build_js build_ts build_wasm
 
-# N/A, JS cannot be comopiled
+# N/A, JS cannot be compiled
 build_js:
 
 # Compiles TS to JS: creates 02-hello_world.js
@@ -20,7 +20,7 @@ run_js:
 # Runs TS target (compiled into JS).
 run_ts:
 	node 02-hello_world.js
-	
+
 # Runs C++ target (compiled into WASM, loaded from JS).
 run_wasm:
 	node 03-hello_world.js
